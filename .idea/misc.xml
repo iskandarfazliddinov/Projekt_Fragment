@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/android/Project_Kotlin/app/src/main/res/drawable/backround.xml" value="0.19444444444444445" />
+        <entry key="..\:/android/Project_Kotlin/app/src/main/res/drawable/ic_baseline_add_circle_24.xml" value="0.18981481481481483" />
+        <entry key="..\:/android/Project_Kotlin/app/src/main/res/drawable/ic_baseline_cloud_download_24.xml" value="0.19444444444444445" />
+        <entry key="..\:/android/Project_Kotlin/app/src/main/res/drawable/ic_baseline_done_outline_24.xml" value="0.18981481481481483" />
+        <entry key="..\:/android/Project_Kotlin/app/src/main/res/drawable/ic_baseline_folder_24.xml" value="0.19444444444444445" />
+        <entry key="..\:/android/Project_Kotlin/app/src/main/res/drawable/item_recyclerview_1.xml" value="0.18981481481481483" />
+        <entry key="..\:/android/Project_Kotlin/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/android/Project_Kotlin/app/src/main/res/layout/activity_main2.xml" value="0.20416666666666666" />
+        <entry key="..\:/android/Project_Kotlin/app/src/main/res/layout/fragment_1.xml" value="0.2" />
+        <entry key="..\:/android/Project_Kotlin/app/src/main/res/layout/fragment_2.xml" value="0.25" />
+        <entry key="..\:/android/Project_Kotlin/app/src/main/res/layout/fragment_3.xml" value="0.20416666666666666" />
+        <entry key="..\:/android/Project_Kotlin/app/src/main/res/layout/fragment_4.xml" value="0.20416666666666666" />
+        <entry key="..\:/android/Project_Kotlin/app/src/main/res/layout/reyclerview_1.xml" value="0.20416666666666666" />
+        <entry key="..\:/android/Project_Kotlin/app/src/main/res/menu/menyu_nav.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
