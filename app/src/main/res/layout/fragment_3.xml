@@ -47,6 +47,7 @@
         android:layout_width="match_parent"
         android:layout_height="400dp"
         android:layout_margin="16dp"
+        android:backgroundTint="#5E8A8A8A"
         app:layout_constraintBottom_toTopOf="@id/button_delet"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -54,6 +55,8 @@
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/reyclerView"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             tools:listitem="@layout/reyclerview_1"/>

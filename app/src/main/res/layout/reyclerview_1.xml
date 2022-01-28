@@ -10,6 +10,8 @@
         android:layout_height="150dp"
         android:layout_margin="12dp"
         app:cardCornerRadius="12dp"
+        app:cardElevation="0dp"
+        android:backgroundTint="#79FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -59,6 +61,7 @@
                 android:id="@+id/attach"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:backgroundTint="#05FFFFFF"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:srcCompat="@drawable/ic_baseline_done_outline_24" />
@@ -67,6 +70,7 @@
                 android:id="@+id/delet"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:backgroundTint="#05FFFFFF"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:srcCompat="@drawable/ic_outline_delete_24" />

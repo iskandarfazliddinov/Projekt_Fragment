@@ -8,12 +8,12 @@ import android.view.ViewGroup
 import android.widget.Adapter
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.project_kotlin.Data.Data
 import com.example.project_kotlin.R
 
-class MyAdapter(listMain:ArrayList<String>):RecyclerView.Adapter<MyAdapter.ViewHolder>() {
+class MyAdapter(listMain:ArrayList<Data>):RecyclerView.Adapter<MyAdapter.ViewHolder>() {
 
     var listArr = listMain
-
 
 
     class ViewHolder(itemView:View):RecyclerView.ViewHolder(itemView){
@@ -33,14 +33,14 @@ class MyAdapter(listMain:ArrayList<String>):RecyclerView.Adapter<MyAdapter.ViewH
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
 
-        holder.setData(listArr[position])
+        holder.setData(listArr[position].text_data)
 
     }
 
     override fun getItemCount(): Int {
         return listArr.size
     }
-    fun updataAdapter(listItem:ArrayList<String>){
+    fun updataAdapter(listItem:ArrayList<Data>){
         listArr.clear()
         listArr.addAll(listItem)
         notifyDataSetChanged()

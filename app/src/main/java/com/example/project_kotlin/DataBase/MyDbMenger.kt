@@ -4,6 +4,8 @@ import android.annotation.SuppressLint
 import android.content.ContentValues
 import android.content.Context
 import android.database.sqlite.SQLiteDatabase
+import android.provider.ContactsContract
+import com.example.project_kotlin.Data.Data
 import com.example.project_kotlin.Fragments.Fragment_4
 
 class MyDbMenger(context: Context) {
@@ -34,16 +36,20 @@ class MyDbMenger(context: Context) {
             null
         )
         with(cursor){
+            if (cursor != null)
             while (this?.moveToNext()!!){
-                val dataText_one = cursor?.getString(cursor.getColumnIndex(MyDbNameClass.MALUMOT_TURI))
-                val dataText_two = cursor?.getString(cursor.getColumnIndex(MyDbNameClass.MALUMOT_HAQIDA))
+                val dataText_one = cursor.getString(cursor.getColumnIndex(MyDbNameClass.MALUMOT_TURI)).toString()
+                val dataText_two = cursor.getString(cursor.getColumnIndex(MyDbNameClass.MALUMOT_HAQIDA))
 
-                dataList.add("$dataText_one"+" $dataText_two")
+                dataList.add(dataText_one)
             }
         }
         cursor?.close()
+        db?.close()
         return dataList
     }
+
+
     fun closeDb(){
         myDbHelper.close()
     }
